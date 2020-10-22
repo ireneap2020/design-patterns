@@ -8,6 +8,9 @@ public class IteratorApp {
 
     Aggregate facebookUserAggregate = new FacebookUserAggregate();
     printItemsFrom(facebookUserAggregate.createIterator());
+
+    Aggregate creUserAggregate = new CREUserAggregate();
+    printItemsFrom(creUserAggregate.createIterator());
   }
 
   public static void printItemsFrom(Iterator iterator) {

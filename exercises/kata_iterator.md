@@ -1,5 +1,11 @@
 ## KATA Google y Facebook ##
 
+### Grupo # 3 ###
+- APAZA PERALTA IRENE JENNY 
+- AGUILAR PEREZ KLEBER I. 
+- BARJA HOYOS KEVIN EDUARDO 
+- RIBERA YELY GALINDO  
+
 ### Objetivo ###
 Utilizar el patrón ***Iterator*** como solución para integrar el uso de distintas estructuras de datos.
 
@@ -49,3 +55,14 @@ La estructura que usa CRE para este caso es:
   Para el acceso a la información CRE provee el método:
 
     public Map<id, UserData> getCREinfo();
+    
+### Pasos para aplicación del patron en Cre ###
+- Creamos los pojo's CREUser y UserData 
+- Creamos la clase agregada CREApi
+- Para mayor consistencia con las otras apis cambiamos la firma del método por
+
+
+    public Map<id, CREUser> getCREUsers();
+- Para mayor consistencia con las otras apis cambiamos la firma del método por       
+- Creamos el iterador concreto CREUserIterator y trabajamos sobre la estructura Map
+- En el cliente IteratorApp hacemos uso de estas clases.
