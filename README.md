@@ -1,5 +1,8 @@
-# Patrones de diseño #
-
+# Patrones de diseño - Grupo #3 #
+- APAZA PERALTA IRENE JENNY 
+- AGUILAR PEREZ KLEBER I. 
+- BARJA HOYOS KEVIN EDUARDO 
+- RIBERA YELY GALINDO 
 
 ## Software a instalar ##
 1. [Java Development Kit 8 (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
