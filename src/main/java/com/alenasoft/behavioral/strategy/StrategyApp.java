@@ -27,6 +27,10 @@ public class StrategyApp {
     team.setGameStrategy(new HalfAttackStrategy());
     team.play(1);
 
+    //Tiro de estrategia
+    team.setGameStrategy(new ShootingStrategy());
+    team.play(2);
+
     team.setGameStrategy(
         new GameStrategy() {
           @Override
