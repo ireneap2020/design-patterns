@@ -1,6 +1,6 @@
 package com.alenasoft.behavioral.strategy;
 
-public class HalfAttackStrategy implements GameStrategy {
+public class CompleteAttackStrategy implements GameStrategy {
 
   @Override
   public void play(int numberOfPlayers) {

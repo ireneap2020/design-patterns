@@ -11,6 +11,14 @@ public class StrategyApp {
     team.setGameStrategy(new AttackStrategy());
     team.play(5);
 
+      // Tenemos el balon
+      team.setGameStrategy(new LongBalls());
+      team.play(4);
+
+      // Tenemos el balon
+      team.setGameStrategy(new OverloadBand());
+      team.play(6);
+
     // Sin balon
     team.setGameStrategy(new DefenseStrategy());
     team.play(8);
